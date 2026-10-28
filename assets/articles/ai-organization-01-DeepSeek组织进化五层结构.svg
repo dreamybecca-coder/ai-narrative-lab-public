@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">DeepSeek给出的AI时代组织进化五层结构</title>
+  <desc id="desc">从清晰目标与边界，到双组织方式、保护注意力、AI进入核心工作，最终形成上下文与持续学习。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F9FF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#17315E" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 48px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 24px; fill: #52647D; }
+      .num { font-size: 22px; font-weight: 700; fill: #FFFFFF; }
+      .layerTitle { font-size: 29px; font-weight: 700; fill: #13294B; }
+      .layerText { font-size: 21px; fill: #50627B; }
+      .branchTitle { font-size: 22px; font-weight: 700; fill: #1C4C86; }
+      .branchText { font-size: 18px; fill: #50627B; }
+    </style>
+  </defs>
+  <rect width="1600" height="1050" rx="40" fill="url(#bg)"/>
+  <text x="110" y="95" class="title">AI进入公司以后，组织要在哪五个地方跟着变？</text>
+  <text x="110" y="140" class="subtitle">DeepSeek提供的不是管理模板，而是一组由下向上相互支撑的组织设计</text>
+
+  <!-- layer 5 -->
+  <g filter="url(#shadow)">
+    <rect x="360" y="205" width="980" height="126" rx="24" fill="#DCEAFF" stroke="#7FAEFF" stroke-width="2"/>
+    <circle cx="418" cy="268" r="29" fill="#2E6DDA"/>
+    <text x="418" y="276" text-anchor="middle" class="num">05</text>
+    <text x="475" y="254" class="layerTitle">让这一轮工作帮助下一轮做得更好</text>
+    <text x="475" y="292" class="layerText">整理企业上下文，让结果、错误和人工修正持续进入系统</text>
+  </g>
+
+  <!-- layer 4 -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="354" width="1040" height="126" rx="24" fill="#DFF5F4" stroke="#6EC9C2" stroke-width="2"/>
+    <circle cx="358" cy="417" r="29" fill="#158F87"/>
+    <text x="358" y="425" text-anchor="middle" class="num">04</text>
+    <text x="415" y="403" class="layerTitle">先让AI改造公司最核心的工作</text>
+    <text x="415" y="441" class="layerText">不是先做展示入口，而是先改变创造核心价值的业务环节</text>
+  </g>
+
+  <!-- layer 3 -->
+  <g filter="url(#shadow)">
+    <rect x="240" y="503" width="1100" height="126" rx="24" fill="#FFF2D8" stroke="#E9B95C" stroke-width="2"/>
+    <circle cx="298" cy="566" r="29" fill="#C88714"/>
+    <text x="298" y="574" text-anchor="middle" class="num">03</text>
+    <text x="355" y="552" class="layerTitle">不要把人的时间排满</text>
+    <text x="355" y="590" class="layerText">给研究、复盘、判断和探索留出真实空间</text>
+  </g>
+
+  <!-- layer 2 -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="652" width="1160" height="170" rx="24" fill="#F0E8FF" stroke="#A58ADF" stroke-width="2"/>
+    <circle cx="238" cy="714" r="29" fill="#6E4FBB"/>
+    <text x="238" y="722" text-anchor="middle" class="num">02</text>
+    <text x="295" y="700" class="layerTitle">一家公司同时容纳两种组织方式</text>
+    <rect x="295" y="730" width="455" height="64" rx="15" fill="#FFFFFF" fill-opacity="0.75"/>
+    <text x="320" y="758" class="branchTitle">确定性交付｜自上而下</text>
+    <text x="320" y="784" class="branchText">明确目标、节奏、责任</text>
+    <rect x="775" y="730" width="455" height="64" rx="15" fill="#FFFFFF" fill-opacity="0.75"/>
+    <text x="800" y="758" class="branchTitle">未知探索｜自下而上</text>
+    <text x="800" y="784" class="branchText">允许选择问题、试错和判断</text>
+  </g>
+
+  <!-- layer 1 -->
+  <g filter="url(#shadow)">
+    <rect x="120" y="845" width="1220" height="126" rx="24" fill="#173A68"/>
+    <circle cx="178" cy="908" r="29" fill="#FFFFFF" fill-opacity="0.20"/>
+    <text x="178" y="916" text-anchor="middle" class="num">01</text>
+    <text x="235" y="894" class="layerTitle" style="fill:#FFFFFF">先把目标和边界定清楚</text>
+    <text x="235" y="934" class="layerText" style="fill:#DCE9FB">知道什么是主线、什么暂时不做，组织才不会被新机会拖住</text>
+  </g>
+
+  <path d="M1375 920 L1420 920 L1420 270 L1375 270" fill="none" stroke="#7390B5" stroke-width="3" stroke-dasharray="7 8"/>
+  <path d="M1420 270 l-12 18 M1420 270 l12 18" fill="none" stroke="#7390B5" stroke-width="3"/>
+  <text x="1460" y="620" transform="rotate(-90 1460 620)" text-anchor="middle" class="subtitle">由方向，到组织方式，再到持续学习</text>
+</svg>

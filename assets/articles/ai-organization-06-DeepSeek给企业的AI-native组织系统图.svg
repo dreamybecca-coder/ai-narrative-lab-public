@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">AI-native组织的四层系统</title>
+  <desc id="desc">四层同时运行：方向层确定业务结果与边界，组织层安排稳定交付和未知探索，业务层组织人与AI共同执行并形成反馈，学习层沉淀企业上下文。最终推动流程、岗位与协作关系改变。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFE"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="aiCore" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#168C84"/>
+      <stop offset="1" stop-color="#126B76"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#17315E" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#168C84"/>
+    </marker>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 46px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 23px; fill: #52647D; }
+      .layerNo { font-size: 17px; font-weight: 700; letter-spacing: 2px; fill: #DDE9FA; }
+      .layerName { font-size: 29px; font-weight: 700; fill: #FFFFFF; }
+      .layerRole { font-size: 18px; fill: #E3ECF8; }
+      .contentTitle { font-size: 29px; font-weight: 700; fill: #173254; }
+      .contentText { font-size: 19px; fill: #52647D; }
+      .cardTitle { font-size: 24px; font-weight: 700; fill: #173254; }
+      .cardText { font-size: 18px; fill: #52647D; }
+      .flowTitle { font-size: 22px; font-weight: 700; fill: #173254; }
+      .flowText { font-size: 17px; fill: #52647D; }
+      .whiteTitle { font-size: 24px; font-weight: 700; fill: #FFFFFF; }
+      .whiteText { font-size: 17px; fill: #DDF6F2; }
+      .chip { font-size: 18px; font-weight: 600; fill: #244B7C; }
+      .outcomeTitle { font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .outcomeText { font-size: 19px; fill: #DFE9F7; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1120" rx="42" fill="url(#bg)"/>
+  <text x="90" y="82" class="title">一个AI-native组织，需要四层同时运转</text>
+  <text x="90" y="125" class="subtitle">方向定结果，组织分配工作，人与AI共同执行，经验再回到系统</text>
+
+  <!-- Direction layer -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="175" width="1420" height="145" rx="26" fill="#E7EEFC" stroke="#86A9DF" stroke-width="2"/>
+  </g>
+  <path d="M116 175 H340 V320 H116 Q90 320 90 294 V201 Q90 175 116 175 Z" fill="#2E66AA"/>
+  <text x="130" y="218" class="layerNo">LAYER 01</text>
+  <text x="130" y="255" class="layerName">方向层</text>
+  <text x="130" y="286" class="layerRole">定目标与边界</text>
+  <text x="380" y="225" class="contentTitle">AI到底要改变哪个业务结果？</text>
+  <text x="380" y="263" class="contentText">把注意力留给主线，也说清楚：</text>
+  <rect x="760" y="235" width="185" height="48" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="965" y="235" width="195" height="48" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="1180" y="235" width="270" height="48" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="852" y="266" text-anchor="middle" class="chip">先解决什么</text>
+  <text x="1062" y="266" text-anchor="middle" class="chip">什么暂时不做</text>
+  <text x="1315" y="266" text-anchor="middle" class="chip">哪些风险不能让步</text>
+
+  <!-- Organization layer -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="345" width="1420" height="170" rx="26" fill="#F8F6FC" stroke="#B7A5DE" stroke-width="2"/>
+  </g>
+  <path d="M116 345 H340 V515 H116 Q90 515 90 489 V371 Q90 345 116 345 Z" fill="#7358AF"/>
+  <text x="130" y="393" class="layerNo">LAYER 02</text>
+  <text x="130" y="430" class="layerName">组织层</text>
+  <text x="130" y="461" class="layerRole">安排不同的工作</text>
+  <rect x="380" y="375" width="510" height="110" rx="22" fill="#F0EAFE" stroke="#A990DF" stroke-width="2"/>
+  <rect x="940" y="375" width="510" height="110" rx="22" fill="#FFF1D8" stroke="#E4B453" stroke-width="2"/>
+  <text x="420" y="419" class="cardTitle">稳定交付</text>
+  <text x="420" y="454" class="cardText">目标、责任和验收标准都要清楚</text>
+  <text x="980" y="419" class="cardTitle">未知探索</text>
+  <text x="980" y="454" class="cardText">允许试错，也给人的判断留出空间</text>
+
+  <!-- Business layer -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="540" width="1420" height="260" rx="26" fill="#F5FAFA" stroke="#79BFB8" stroke-width="2"/>
+  </g>
+  <path d="M116 540 H340 V800 H116 Q90 800 90 774 V566 Q90 540 116 540 Z" fill="#157F78"/>
+  <text x="130" y="590" class="layerNo">LAYER 03</text>
+  <text x="130" y="627" class="layerName">业务层</text>
+  <text x="130" y="658" class="layerRole">设计人机协同</text>
+
+  <rect x="380" y="600" width="205" height="88" rx="20" fill="#E7EEFA" stroke="#94AED2"/>
+  <text x="482" y="637" text-anchor="middle" class="flowTitle">业务目标</text>
+  <text x="482" y="666" text-anchor="middle" class="flowText">从结果出发</text>
+
+  <line x1="585" y1="644" x2="645" y2="644" stroke="#168C84" stroke-width="4" marker-end="url(#arrowGreen)"/>
+
+  <rect x="655" y="588" width="250" height="112" rx="22" fill="url(#aiCore)" filter="url(#shadow)"/>
+  <text x="780" y="634" text-anchor="middle" class="whiteTitle">AI进入核心流程</text>
+  <text x="780" y="668" text-anchor="middle" class="whiteText">参与判断与执行</text>
+
+  <line x1="905" y1="644" x2="965" y2="644" stroke="#168C84" stroke-width="4" marker-end="url(#arrowGreen)"/>
+
+  <rect x="975" y="600" width="220" height="88" rx="20" fill="#FFF1D8" stroke="#E4B453"/>
+  <text x="1085" y="637" text-anchor="middle" class="flowTitle">人做关键判断</text>
+  <text x="1085" y="666" text-anchor="middle" class="flowText">重要节点必须人审</text>
+
+  <line x1="1195" y1="644" x2="1255" y2="644" stroke="#168C84" stroke-width="4" marker-end="url(#arrowGreen)"/>
+
+  <rect x="1265" y="600" width="185" height="88" rx="20" fill="#E5F7EF" stroke="#6AC495"/>
+  <text x="1357" y="637" text-anchor="middle" class="flowTitle">验收结果</text>
+  <text x="1357" y="666" text-anchor="middle" class="flowText">看业务是否改善</text>
+
+  <path d="M1357 688 V744 H482 V690" fill="none" stroke="#168C84" stroke-width="4" marker-end="url(#arrowGreen)"/>
+  <rect x="710" y="727" width="420" height="42" rx="13" fill="#DDF3F0"/>
+  <text x="920" y="755" text-anchor="middle" class="chip">人工修正和真实结果进入下一轮</text>
+
+  <!-- Learning layer -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="825" width="1420" height="145" rx="26" fill="#E9EEF6" stroke="#8FA8C8" stroke-width="2"/>
+  </g>
+  <path d="M116 825 H340 V970 H116 Q90 970 90 944 V851 Q90 825 116 825 Z" fill="#486C98"/>
+  <text x="130" y="868" class="layerNo">LAYER 04</text>
+  <text x="130" y="905" class="layerName">学习层</text>
+  <text x="130" y="936" class="layerRole">沉淀企业上下文</text>
+  <text x="380" y="874" class="contentTitle">让AI知道公司怎样做判断</text>
+  <text x="380" y="912" class="contentText">把散落在人脑和文件里的知识整理出来</text>
+  <rect x="850" y="863" width="135" height="50" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="1000" y="863" width="135" height="50" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="1150" y="863" width="135" height="50" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <rect x="1300" y="863" width="150" height="50" rx="15" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="917" y="895" text-anchor="middle" class="chip">数据口径</text>
+  <text x="1067" y="895" text-anchor="middle" class="chip">业务规则</text>
+  <text x="1217" y="895" text-anchor="middle" class="chip">专家经验</text>
+  <text x="1375" y="895" text-anchor="middle" class="chip">权限与例外</text>
+
+  <!-- Outcome -->
+  <rect x="90" y="995" width="1420" height="85" rx="26" fill="#254D7D"/>
+  <text x="800" y="1032" text-anchor="middle" class="outcomeTitle">四层一起运转，组织本身也会跟着改变</text>
+  <text x="800" y="1064" text-anchor="middle" class="outcomeText">流程重新设计｜岗位职责调整｜协作关系变化</text>
+</svg>

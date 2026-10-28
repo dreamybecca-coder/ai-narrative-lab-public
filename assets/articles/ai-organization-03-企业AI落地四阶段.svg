@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+  <title id="title">企业AI落地四阶段</title>
+  <desc id="desc">组织诊断、AI提效Workshop、聚焦、FDE Pilot四个前后依赖的阶段。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#EDF4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#17315E" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6F86A5"/>
+    </marker>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 50px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 24px; fill: #52647D; }
+      .step { font-size: 20px; font-weight: 700; fill: #FFFFFF; letter-spacing: 1px; }
+      .cardTitle { font-size: 30px; font-weight: 700; fill: #173254; }
+      .cardText { font-size: 21px; fill: #52647C; }
+      .output { font-size: 20px; font-weight: 700; fill: #1D4F85; }
+    </style>
+  </defs>
+  <rect width="1600" height="840" rx="40" fill="url(#bg)"/>
+  <text x="100" y="95" class="title">企业AI落地，不应该从“先做一个Agent”开始</text>
+  <text x="100" y="140" class="subtitle">四个阶段解决四个前后依赖的问题：先看清，再形成共识，然后聚焦，最后真实验证</text>
+
+  <line x1="390" y1="416" x2="475" y2="416" stroke="#6F86A5" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="765" y1="416" x2="850" y2="416" stroke="#6F86A5" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1140" y1="416" x2="1225" y2="416" stroke="#6F86A5" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="230" width="295" height="390" rx="26" fill="#FFFFFF"/>
+    <rect x="95" y="230" width="295" height="72" rx="26" fill="#204F8A"/>
+    <rect x="95" y="276" width="295" height="26" fill="#204F8A"/>
+    <text x="242" y="275" text-anchor="middle" class="step">STEP 01</text>
+    <text x="242" y="360" text-anchor="middle" class="cardTitle">组织诊断</text>
+    <text x="125" y="414" class="cardText">看真实工作怎样发生</text>
+    <text x="125" y="452" class="cardText">找时间、返工、判断</text>
+    <text x="125" y="490" class="cardText">知识与数据的断点</text>
+    <rect x="125" y="545" width="235" height="48" rx="14" fill="#E7F0FD"/>
+    <text x="242" y="577" text-anchor="middle" class="output">输出：问题地图</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="230" width="295" height="390" rx="26" fill="#FFFFFF"/>
+    <rect x="470" y="230" width="295" height="72" rx="26" fill="#6B50B5"/>
+    <rect x="470" y="276" width="295" height="26" fill="#6B50B5"/>
+    <text x="617" y="275" text-anchor="middle" class="step">STEP 02</text>
+    <text x="617" y="350" text-anchor="middle" class="cardTitle">AI提效</text>
+    <text x="617" y="388" text-anchor="middle" class="cardTitle">Workshop</text>
+    <text x="500" y="440" class="cardText">用真实工作共同练习</text>
+    <text x="500" y="478" class="cardText">对齐AI能力与边界</text>
+    <rect x="500" y="545" width="235" height="48" rx="14" fill="#F0EAFE"/>
+    <text x="617" y="577" text-anchor="middle" class="output">输出：共同语言</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="845" y="230" width="295" height="390" rx="26" fill="#FFFFFF"/>
+    <rect x="845" y="230" width="295" height="72" rx="26" fill="#C68616"/>
+    <rect x="845" y="276" width="295" height="26" fill="#C68616"/>
+    <text x="992" y="275" text-anchor="middle" class="step">STEP 03</text>
+    <text x="992" y="360" text-anchor="middle" class="cardTitle">聚焦</text>
+    <text x="875" y="414" class="cardText">从很多想法里选一个</text>
+    <text x="875" y="452" class="cardText">价值高、范围可控</text>
+    <text x="875" y="490" class="cardText">数据可得、结果可验</text>
+    <rect x="875" y="545" width="235" height="48" rx="14" fill="#FFF2D9"/>
+    <text x="992" y="577" text-anchor="middle" class="output">输出：任务包</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1220" y="230" width="295" height="390" rx="26" fill="#FFFFFF"/>
+    <rect x="1220" y="230" width="295" height="72" rx="26" fill="#168C84"/>
+    <rect x="1220" y="276" width="295" height="26" fill="#168C84"/>
+    <text x="1367" y="275" text-anchor="middle" class="step">STEP 04</text>
+    <text x="1367" y="360" text-anchor="middle" class="cardTitle">FDE Pilot</text>
+    <text x="1250" y="414" class="cardText">做成真实用户会用的</text>
+    <text x="1250" y="452" class="cardText">工作流或Agent</text>
+    <text x="1250" y="490" class="cardText">在真实任务里迭代</text>
+    <rect x="1250" y="545" width="235" height="48" rx="14" fill="#E1F5F2"/>
+    <text x="1367" y="577" text-anchor="middle" class="output">输出：验证结果</text>
+  </g>
+
+  <rect x="255" y="695" width="1090" height="72" rx="22" fill="#173A68"/>
+  <text x="800" y="740" text-anchor="middle" class="step">Agent可以是最终实现形式，但不应该成为企业思考AI的起点</text>
+</svg>

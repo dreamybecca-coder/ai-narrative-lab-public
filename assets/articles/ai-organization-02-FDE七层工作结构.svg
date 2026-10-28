@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">FDE七层工作结构</title>
+  <desc id="desc">从业务目标、流程判断、数据知识、业务数据架构，到AI实现、人机协同、验证迭代。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#F2F6FC"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#18345E" flood-opacity="0.09"/>
+    </filter>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 50px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 24px; fill: #53657E; }
+      .group { font-size: 22px; font-weight: 700; fill: #FFFFFF; }
+      .num { font-size: 22px; font-weight: 700; fill: #FFFFFF; }
+      .layerTitle { font-size: 28px; font-weight: 700; fill: #173254; }
+      .layerText { font-size: 20px; fill: #52647C; }
+    </style>
+  </defs>
+  <rect width="1600" height="1120" rx="40" fill="url(#bg)"/>
+  <text x="105" y="95" class="title">FDE不是部署一个工具，而是完成七层结构性工作</text>
+  <text x="105" y="140" class="subtitle">先理解业务，再完成架构与AI实现，最后用真实结果持续验证</text>
+
+  <!-- group rails -->
+  <rect x="105" y="210" width="88" height="228" rx="22" fill="#1C4C86"/>
+  <text x="149" y="325" text-anchor="middle" transform="rotate(-90 149 325)" class="group">理解业务</text>
+  <rect x="105" y="455" width="88" height="228" rx="22" fill="#5B4FB0"/>
+  <text x="149" y="570" text-anchor="middle" transform="rotate(-90 149 570)" class="group">设计结构</text>
+  <rect x="105" y="700" width="88" height="315" rx="22" fill="#168C84"/>
+  <text x="149" y="858" text-anchor="middle" transform="rotate(-90 149 858)" class="group">运行与学习</text>
+
+  <!-- rows -->
+  <g filter="url(#shadow)">
+    <rect x="225" y="210" width="1270" height="104" rx="20" fill="#E3EDFF" stroke="#8FB2EC" stroke-width="2"/>
+    <circle cx="284" cy="262" r="29" fill="#2E6DDA"/><text x="284" y="270" text-anchor="middle" class="num">01</text>
+    <text x="342" y="252" class="layerTitle">业务目标</text>
+    <text x="342" y="285" class="layerText">明确要改变的结果，以及优先级、边界和责任人</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="334" width="1270" height="104" rx="20" fill="#E8F2FF" stroke="#8FB2EC" stroke-width="2"/>
+    <circle cx="284" cy="386" r="29" fill="#2E6DDA"/><text x="284" y="394" text-anchor="middle" class="num">02</text>
+    <text x="342" y="376" class="layerTitle">流程与关键判断</text>
+    <text x="342" y="409" class="layerText">看清工作怎样发生，谁在什么环节依据什么做决定</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="455" width="1270" height="104" rx="20" fill="#F0EAFE" stroke="#AA94DF" stroke-width="2"/>
+    <circle cx="284" cy="507" r="29" fill="#6E4FBB"/><text x="284" y="515" text-anchor="middle" class="num">03</text>
+    <text x="342" y="497" class="layerTitle">数据与知识</text>
+    <text x="342" y="530" class="layerText">找到判断所依赖的数据、事实、规则、案例和专家经验</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="579" width="1270" height="104" rx="20" fill="#F5EDFF" stroke="#AA94DF" stroke-width="2"/>
+    <circle cx="284" cy="631" r="29" fill="#6E4FBB"/><text x="284" y="639" text-anchor="middle" class="num">04</text>
+    <text x="342" y="621" class="layerTitle">业务与数据架构</text>
+    <text x="342" y="654" class="layerText">组织对象、关系、规则、权限、触发条件和结果状态</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="700" width="1270" height="104" rx="20" fill="#DFF5F3" stroke="#73C7C1" stroke-width="2"/>
+    <circle cx="284" cy="752" r="29" fill="#168C84"/><text x="284" y="760" text-anchor="middle" class="num">05</text>
+    <text x="342" y="742" class="layerTitle">AI实现</text>
+    <text x="342" y="775" class="layerText">根据任务选择自动化、检索、预测、工作流或者Agent</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="824" width="1270" height="104" rx="20" fill="#E6F7F0" stroke="#73C7A0" stroke-width="2"/>
+    <circle cx="284" cy="876" r="29" fill="#168C84"/><text x="284" y="884" text-anchor="middle" class="num">06</text>
+    <text x="342" y="866" class="layerTitle">Human in the loop</text>
+    <text x="342" y="899" class="layerText">设计人机协同、审批节点、例外处理和最终责任边界</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="225" y="948" width="1270" height="104" rx="20" fill="#EAF8EC" stroke="#7FC58A" stroke-width="2"/>
+    <circle cx="284" cy="1000" r="29" fill="#2B9350"/><text x="284" y="1008" text-anchor="middle" class="num">07</text>
+    <text x="342" y="990" class="layerTitle">验证与迭代</text>
+    <text x="342" y="1023" class="layerText">用真实业务结果验收，把错误和人工修正带回下一轮</text>
+  </g>
+
+  <path d="M1518 260 L1545 260 L1545 1000 L1518 1000" fill="none" stroke="#738AA8" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M1545 1000 l-12 -18 M1545 1000 l12 -18" fill="none" stroke="#738AA8" stroke-width="3"/>
+</svg>

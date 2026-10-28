@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120" role="img" aria-labelledby="title desc">
+  <title id="title">从传统数字化流程到AI-native学习飞轮</title>
+  <desc id="desc">以活动邀约为例，左侧展示传统数字化对既有流程的记录、查询与标准化，右侧展示AI参与预判、执行、复盘和下一轮优化形成的学习飞轮，中间展示FDE完成的业务重构。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFE"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#244F87"/>
+      <stop offset="1" stop-color="#16375F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="11" flood-color="#17315E" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7289A8"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#168C84"/>
+    </marker>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 48px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 23px; fill: #52647D; }
+      .panelTitle { font-size: 30px; font-weight: 700; fill: #173254; }
+      .panelSub { font-size: 20px; fill: #5A6D86; }
+      .stepTitle { font-size: 22px; font-weight: 700; fill: #173254; }
+      .stepText { font-size: 18px; fill: #5A6D86; }
+      .small { font-size: 18px; fill: #52647D; }
+      .num { font-size: 18px; font-weight: 700; fill: #FFFFFF; }
+      .whiteTitle { font-size: 25px; font-weight: 700; fill: #FFFFFF; }
+      .whiteText { font-size: 18px; fill: #DCE9F9; }
+      .flyTitle { font-size: 21px; font-weight: 700; fill: #174A57; }
+      .flyText { font-size: 17px; fill: #526D72; }
+      .centerTitle { font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .centerText { font-size: 18px; fill: #DDF5F1; }
+      .footer { font-size: 19px; fill: #51657D; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" rx="42" fill="url(#bg)"/>
+  <text x="90" y="88" class="title">同一场活动邀约：数字化是一条线，AI-native会形成学习飞轮</text>
+  <text x="90" y="130" class="subtitle">差别不在于有没有系统，而在于系统是否开始参与预判、执行、复盘和下一轮优化</text>
+
+  <!-- Left panel -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="185" width="620" height="820" rx="30" fill="#FFFFFF" stroke="#A8B9D0" stroke-width="2"/>
+  </g>
+  <rect x="70" y="185" width="620" height="112" rx="30" fill="#E7EEF8"/>
+  <rect x="70" y="265" width="620" height="32" fill="#E7EEF8"/>
+  <text x="110" y="232" class="panelTitle">传统数字化｜既有流程的系统化</text>
+  <text x="110" y="268" class="panelSub">把信息和动作搬进系统，让流程可记录、可查询、可统计</text>
+
+  <g filter="url(#shadow)">
+    <rect x="135" y="338" width="490" height="80" rx="18" fill="#F1F5FA" stroke="#B7C5D6"/>
+    <circle cx="180" cy="378" r="24" fill="#6D83A1"/><text x="180" y="384" text-anchor="middle" class="num">01</text>
+    <text x="220" y="370" class="stepTitle">客户资料进入CRM</text>
+    <text x="220" y="397" class="stepText">资料集中管理，减少散落与重复录入</text>
+  </g>
+  <line x1="380" y1="418" x2="380" y2="448" stroke="#7289A8" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <g filter="url(#shadow)">
+    <rect x="135" y="455" width="490" height="80" rx="18" fill="#F1F5FA" stroke="#B7C5D6"/>
+    <circle cx="180" cy="495" r="24" fill="#6D83A1"/><text x="180" y="501" text-anchor="middle" class="num">02</text>
+    <text x="220" y="487" class="stepTitle">按原有规则制定邀约名单</text>
+    <text x="220" y="514" class="stepText">市场整理名单，销售分批跟进</text>
+  </g>
+  <line x1="380" y1="535" x2="380" y2="565" stroke="#7289A8" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <g filter="url(#shadow)">
+    <rect x="135" y="572" width="490" height="80" rx="18" fill="#F1F5FA" stroke="#B7C5D6"/>
+    <circle cx="180" cy="612" r="24" fill="#6D83A1"/><text x="180" y="618" text-anchor="middle" class="num">03</text>
+    <text x="220" y="604" class="stepTitle">执行邀约与人工跟进</text>
+    <text x="220" y="631" class="stepText">系统支撑动作，主要判断仍由人完成</text>
+  </g>
+  <line x1="380" y1="652" x2="380" y2="682" stroke="#7289A8" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <g filter="url(#shadow)">
+    <rect x="135" y="689" width="490" height="80" rx="18" fill="#F1F5FA" stroke="#B7C5D6"/>
+    <circle cx="180" cy="729" r="24" fill="#6D83A1"/><text x="180" y="735" text-anchor="middle" class="num">04</text>
+    <text x="220" y="721" class="stepTitle">记录报名、到场与转化</text>
+    <text x="220" y="748" class="stepText">状态可以追踪、查询和汇总</text>
+  </g>
+  <line x1="380" y1="769" x2="380" y2="799" stroke="#7289A8" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <g filter="url(#shadow)">
+    <rect x="135" y="806" width="490" height="80" rx="18" fill="#F1F5FA" stroke="#B7C5D6"/>
+    <circle cx="180" cy="846" r="24" fill="#6D83A1"/><text x="180" y="852" text-anchor="middle" class="num">05</text>
+    <text x="220" y="838" class="stepTitle">统计结果，人工复盘</text>
+    <text x="220" y="865" class="stepText">形成报表，但经验未必进入下一轮</text>
+  </g>
+  <rect x="135" y="922" width="490" height="55" rx="16" fill="#E7EEF8"/>
+  <text x="380" y="957" text-anchor="middle" class="stepTitle">价值：记录、查询、标准化</text>
+
+  <!-- Center FDE bridge -->
+  <g filter="url(#shadow)">
+    <rect x="725" y="308" width="260" height="580" rx="28" fill="url(#bridge)"/>
+  </g>
+  <text x="855" y="360" text-anchor="middle" class="whiteTitle">FDE重新设计</text>
+  <text x="855" y="395" text-anchor="middle" class="whiteText">不是把AI塞进旧流程</text>
+  <line x1="775" y1="425" x2="935" y2="425" stroke="#7194BE" stroke-width="2"/>
+
+  <circle cx="785" cy="476" r="24" fill="#FFFFFF" fill-opacity="0.18"/><text x="785" y="482" text-anchor="middle" class="num">01</text>
+  <text x="825" y="483" class="whiteText">回到业务目标</text>
+  <circle cx="785" cy="556" r="24" fill="#FFFFFF" fill-opacity="0.18"/><text x="785" y="562" text-anchor="middle" class="num">02</text>
+  <text x="825" y="563" class="whiteText">拆出关键判断</text>
+  <circle cx="785" cy="636" r="24" fill="#FFFFFF" fill-opacity="0.18"/><text x="785" y="642" text-anchor="middle" class="num">03</text>
+  <text x="825" y="643" class="whiteText">组织数据与知识</text>
+  <circle cx="785" cy="716" r="24" fill="#FFFFFF" fill-opacity="0.18"/><text x="785" y="722" text-anchor="middle" class="num">04</text>
+  <text x="825" y="723" class="whiteText">设计人机协同</text>
+  <circle cx="785" cy="796" r="24" fill="#FFFFFF" fill-opacity="0.18"/><text x="785" y="802" text-anchor="middle" class="num">05</text>
+  <text x="825" y="803" class="whiteText">把反馈接回系统</text>
+
+  <line x1="690" y1="598" x2="720" y2="598" stroke="#7289A8" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <line x1="985" y1="598" x2="1025" y2="598" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+
+  <!-- Right panel -->
+  <g filter="url(#shadow)">
+    <rect x="1020" y="185" width="710" height="820" rx="30" fill="#FFFFFF" stroke="#76C5BE" stroke-width="2"/>
+  </g>
+  <rect x="1020" y="185" width="710" height="112" rx="30" fill="#DFF4F1"/>
+  <rect x="1020" y="265" width="710" height="32" fill="#DFF4F1"/>
+  <text x="1060" y="232" class="panelTitle">AI-native｜围绕业务结果形成学习飞轮</text>
+  <text x="1060" y="268" class="panelSub">系统开始参与预判、执行、复盘，并把经验带回下一轮</text>
+
+  <!-- Flywheel connectors -->
+  <path d="M1380 405 C1510 390 1600 430 1620 520" fill="none" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M1625 595 C1645 680 1590 760 1500 805" fill="none" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M1370 870 C1245 895 1135 840 1100 760" fill="none" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M1085 650 C1060 560 1095 470 1180 430" fill="none" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M1240 390 C1285 350 1340 350 1380 370" fill="none" stroke="#168C84" stroke-width="5" marker-end="url(#arrowGreen)"/>
+
+  <!-- Flywheel nodes -->
+  <g filter="url(#shadow)">
+    <rect x="1190" y="330" width="380" height="92" rx="20" fill="#E2F6F3" stroke="#64C0B8"/>
+    <circle cx="1230" cy="376" r="23" fill="#168C84"/><text x="1230" y="382" text-anchor="middle" class="num">01</text>
+    <text x="1268" y="369" class="flyTitle">预测哪些用户更可能参加</text>
+    <text x="1268" y="397" class="flyText">结合历史行为、企业属性和活动主题</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1460" y="488" width="230" height="116" rx="20" fill="#E7F7EF" stroke="#74C69A"/>
+    <circle cx="1498" cy="526" r="22" fill="#29945C"/><text x="1498" y="532" text-anchor="middle" class="num">02</text>
+    <text x="1534" y="528" class="flyTitle">选择渠道与表达</text>
+    <text x="1485" y="566" class="flyText">针对不同用户</text>
+    <text x="1485" y="590" class="flyText">匹配时间和内容</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1390" y="770" width="300" height="116" rx="20" fill="#FFF1D6" stroke="#E6B451"/>
+    <circle cx="1430" cy="808" r="22" fill="#C88714"/><text x="1430" y="814" text-anchor="middle" class="num">03</text>
+    <text x="1466" y="810" class="flyTitle">执行，并保留人审</text>
+    <text x="1415" y="848" class="flyText">普通任务自动推进</text>
+    <text x="1415" y="872" class="flyText">重要客户和高风险由人确认</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1070" y="755" width="300" height="130" rx="20" fill="#F0EAFE" stroke="#AA94DF"/>
+    <circle cx="1110" cy="796" r="22" fill="#6E4FBB"/><text x="1110" y="802" text-anchor="middle" class="num">04</text>
+    <text x="1146" y="798" class="flyTitle">分析转化与原因</text>
+    <text x="1095" y="837" class="flyText">谁转化得更快？</text>
+    <text x="1095" y="861" class="flyText">渠道、内容还是用户特征起作用？</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1050" y="470" width="280" height="128" rx="20" fill="#E7EEFA" stroke="#94AED2"/>
+    <circle cx="1090" cy="510" r="22" fill="#456FAD"/><text x="1090" y="516" text-anchor="middle" class="num">05</text>
+    <text x="1126" y="512" class="flyTitle">抽象成功特征</text>
+    <text x="1075" y="551" class="flyText">把共性和成功原因</text>
+    <text x="1075" y="575" class="flyText">输入下一轮邀约策略</text>
+  </g>
+
+  <!-- Center -->
+  <circle cx="1365" cy="610" r="112" fill="#168C84" filter="url(#shadow)"/>
+  <text x="1365" y="592" text-anchor="middle" class="centerTitle">业务目标</text>
+  <text x="1365" y="630" text-anchor="middle" class="centerText">提高邀约成功率</text>
+  <text x="1365" y="658" text-anchor="middle" class="centerText">和后续转化率</text>
+
+  <rect x="1090" y="922" width="570" height="55" rx="16" fill="#DFF4F1"/>
+  <text x="1375" y="957" text-anchor="middle" class="stepTitle">结果：每一轮都为下一轮留下可复用经验</text>
+
+  <!-- Footer boundary -->
+  <rect x="70" y="1030" width="1660" height="58" rx="18" fill="#E8EDF5"/>
+  <text x="900" y="1066" text-anchor="middle" class="footer">边界：现代数字化同样会做流程再造；这里比较的是常见设计起点——系统化既有流程，还是回到业务目标重新设计。</text>
+</svg>

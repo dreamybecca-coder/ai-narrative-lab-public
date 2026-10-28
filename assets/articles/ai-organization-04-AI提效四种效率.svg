@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI提效的四种效率</title>
+  <desc id="desc">生产效率、决策效率、学习效率、组织效率，从当期可见收益走向长期复利。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFE"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#17315E" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+      .title { font-size: 50px; font-weight: 700; fill: #13294B; }
+      .subtitle { font-size: 24px; fill: #52647D; }
+      .num { font-size: 20px; font-weight: 700; fill: #FFFFFF; }
+      .cardTitle { font-size: 31px; font-weight: 700; fill: #173254; }
+      .cardText { font-size: 20px; fill: #52647C; }
+      .axis { font-size: 20px; font-weight: 700; fill: #54708F; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <text x="100" y="95" class="title">AI提效真正拉开差距的，是四种效率一起提升</text>
+  <text x="100" y="140" class="subtitle">从容易看见的当期收益，逐步走向更难复制的长期组织能力</text>
+
+  <path d="M130 735 L1510 735" stroke="#8196B1" stroke-width="3"/>
+  <path d="M1510 735 l-18 -10 M1510 735 l-18 10" stroke="#8196B1" stroke-width="3"/>
+  <text x="130" y="780" class="axis">当期可见</text>
+  <text x="1390" y="780" class="axis">长期复利</text>
+
+  <g filter="url(#shadow)">
+    <rect x="125" y="475" width="300" height="240" rx="24" fill="#E5EEFF" stroke="#91B0E8" stroke-width="2"/>
+    <circle cx="175" cy="525" r="27" fill="#2E6DDA"/><text x="175" y="532" text-anchor="middle" class="num">01</text>
+    <text x="215" y="536" class="cardTitle">生产效率</text>
+    <text x="160" y="595" class="cardText">更多高质量工作</text>
+    <text x="160" y="632" class="cardText">更短交付周期</text>
+    <text x="160" y="669" class="cardText">更少重复与返工</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="475" y="395" width="300" height="320" rx="24" fill="#F0EAFE" stroke="#AD98DF" stroke-width="2"/>
+    <circle cx="525" cy="445" r="27" fill="#6E4FBB"/><text x="525" y="452" text-anchor="middle" class="num">02</text>
+    <text x="565" y="456" class="cardTitle">决策效率</text>
+    <text x="510" y="525" class="cardText">信息更快进入判断</text>
+    <text x="510" y="562" class="cardText">重要信号更早出现</text>
+    <text x="510" y="599" class="cardText">关键人少做低价值动作</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="825" y="315" width="300" height="400" rx="24" fill="#FFF2D9" stroke="#E8BA61" stroke-width="2"/>
+    <circle cx="875" cy="365" r="27" fill="#C68616"/><text x="875" y="372" text-anchor="middle" class="num">03</text>
+    <text x="915" y="376" class="cardTitle">学习效率</text>
+    <text x="860" y="455" class="cardText">经验能被下一次调用</text>
+    <text x="860" y="492" class="cardText">错误减少再次发生</text>
+    <text x="860" y="529" class="cardText">每一轮都比上一轮更准</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1175" y="235" width="300" height="480" rx="24" fill="#DFF5F3" stroke="#72C8C1" stroke-width="2"/>
+    <circle cx="1225" cy="285" r="27" fill="#168C84"/><text x="1225" y="292" text-anchor="middle" class="num">04</text>
+    <text x="1265" y="296" class="cardTitle">组织效率</text>
+    <text x="1210" y="385" class="cardText">能力不再锁在少数人脑中</text>
+    <text x="1210" y="422" class="cardText">新人少走重复弯路</text>
+    <text x="1210" y="459" class="cardText">团队可以复用验证方法</text>
+    <rect x="1210" y="530" width="230" height="58" rx="16" fill="#168C84"/>
+    <text x="1325" y="567" text-anchor="middle" class="num">形成组织能力</text>
+  </g>
+</svg>
